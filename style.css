@@ -1,0 +1,16 @@
+header {
+    background-color: #1C2859;
+    height: 175px;
+}
+
+.interface {
+    display:flex;
+}
+
+.interface h1 {
+    width: 425px;
+    height: 50px;
+    margin: 23px 255px 32px 280px;
+    font-size: 50px;
+    text-align: center;
+}
