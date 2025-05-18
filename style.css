@@ -1,16 +1,45 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    color: #00EEFF;
+}
+
 header {
-    background-color: #1C2859;
     height: 175px;
-}
-
-.interface {
-    display:flex;
-}
-
-.interface h1 {
-    width: 425px;
-    height: 50px;
-    margin: 23px 255px 32px 280px;
-    font-size: 50px;
+    background-color: #2c2e78;
+    color: white;
     text-align: center;
+    padding: 20px;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+nav a {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #c0c0c0;
 }
